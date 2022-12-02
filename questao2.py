@@ -43,7 +43,7 @@ media /= 10000
 #calculo da variancia
 var = 0
 for i in range (10000):
-    variancia = variancia + (v1[i] - media) ** 2
+    variancia = var + (v1[i] - media) ** 2
 
 var /= 10000
 
